@@ -7,4 +7,9 @@ This is based based on collaburative filtering aprroch.
 
 [link to Image Source and Further Derails!](https://towardsdatascience.com/how-do-netflix-and-amazon-know-what-i-want-852c480b67ac)
 
+
+## Active Issues
 [![DeepSource](https://deepsource.io/gh/vaisakhvenugopal/SimpleRecomenationSystem.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/vaisakhvenugopal/SimpleRecomenationSystem/?ref=repository-badge)
+
+## Solved Issues
+[![DeepSource](https://deepsource.io/gh/vaisakhvenugopal/SimpleRecomenationSystem.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/vaisakhvenugopal/SimpleRecomenationSystem/?ref=repository-badge)
