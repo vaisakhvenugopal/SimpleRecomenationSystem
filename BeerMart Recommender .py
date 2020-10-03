@@ -378,13 +378,6 @@ df_subtracted = (beer_features.T-mean).T
 
 df_subtracted.head()
 
-
-# In[115]:
-
-
-#Finding the cosine similarity
-from sklearn.metrics.pairwise import pairwise_distances
-
 # User Similarity Matrix
 user_correlation = 1 - pairwise_distances(df_subtracted.fillna(0), metric='cosine')
 user_correlation[np.isnan(user_correlation)] = 0
@@ -452,12 +445,6 @@ df_subtracted = (beer_features.T-mean).T
 
 
 df_subtracted.head()
-
-
-# In[124]:
-
-
-from sklearn.metrics.pairwise import pairwise_distances
 
 # User Similarity Matrix
 item_correlation = 1 - pairwise_distances(df_subtracted.fillna(0), metric='cosine')
@@ -635,12 +622,6 @@ test_ = test.pivot(
     columns='beer_beerid',
     values='review_overall'
 )
-
-
-# In[145]:
-
-
-from sklearn.preprocessing import MinMaxScaler
 from numpy import *
 
 X  = test_item_final_rating.copy() 
